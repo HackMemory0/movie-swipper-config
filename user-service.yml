@@ -3,7 +3,7 @@ server:
   error:
     include-message: always
   servlet:
-    context-path: /api/v2
+    context-path: /api/v1
 
 spring:
   jpa:
@@ -46,7 +46,7 @@ token:
   expire: 3600
 
 test:
-  value: test123
+  value: test123asd
 
 
 subscribe-topic: /topic/requests
