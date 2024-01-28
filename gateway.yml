@@ -81,10 +81,7 @@ spring:
           filters:
             - AuthenticationFilter
 
-        - id: test
-          uri: lb://user-service
-          predicates:
-            - Path=/user-service/users/test
+
 
 
 
