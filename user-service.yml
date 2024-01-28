@@ -3,7 +3,7 @@ server:
   error:
     include-message: always
   servlet:
-    context-path: /api/v1
+    context-path: /api/v2
 
 spring:
   jpa:
