@@ -81,6 +81,10 @@ spring:
           filters:
             - AuthenticationFilter
 
+        - id: test
+          uri: lb://user-service
+          predicates:
+            - Path=/user-service/users/test
 
 
 
@@ -103,11 +107,8 @@ logging:
 
 
 management:
-  endpoint:
-    gateway:
-      enabled: true
   endpoints:
     web:
       exposure:
-        include: gateway
-
+        include: "*"
+    enabled-by-default: true
