@@ -45,6 +45,9 @@ root:
 token:
   expire: 3600
 
+test:
+  value: test
+
 
 subscribe-topic: /topic/requests
 destination-topic: /queue/responses
