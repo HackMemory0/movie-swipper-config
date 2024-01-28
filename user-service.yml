@@ -46,7 +46,7 @@ token:
   expire: 3600
 
 test:
-  value: test123asd
+  value: HelloWorld
 
 
 subscribe-topic: /topic/requests
