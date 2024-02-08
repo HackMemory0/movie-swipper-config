@@ -70,7 +70,7 @@ spring:
         - id: movie
           uri: lb://movie-service
           predicates:
-            - Path=/movie-service/movie/**, /movie-service/movie/movies-by-genre/**, /movie-service/movie/popular-movies/**, /movie-service/movie/genres-list
+            - Path=/movie-service/movie/**, /movie-service/movie/movies-by-genre/**, /movie-service/movie/popular-movies/**, /movie-service/movie/genres
           filters:
             - AuthenticationFilter
 
